@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Warner Bros.</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="News Letter.css">
+    </head>
+
+    <header>
+        <header id="header-0">
+            <div class="header-bar"></div>
+            <a href="index.html" id="logo-link">
+                <img src="C:\Users\cse22-057\OneDrive - Botswana Accountancy College\Documents\School\WMD\Assignment\pngwing.com.png" alt="logo" id="logo">
+            </a>
+            <nav>
+                <div id="menu-list">
+                    <a href="search">Search</a>
+                    <a href="movies & shows.html">Movies & Shows</a>
+                    <a href="coming soon.html">Coming Soon</a>
+                    <a href="about movies shows & trailers.html">About Movies/Shows & Trailers</a>
+                    <a href="purchase movie tickets.html">Purchase Movie Tickets</a>
+                    <a href="news letter.html">News Letter</a>
+                </div>
+            </nav>
+        </header>
+    </header>
+
+    <body id="body5">
+        <section id="section5">
+            <section id="newsletter-section">
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country">
+                
+                <label for="zip-code">Zip Code:</label>
+                <input type="text" id="zip-code" name="zip-code" required>
+                
+                <label>Newsletter Frequency:</label>
+                <div>
+                  <input type="radio" id="frequency2" name="newsletter-frequency" value="2" required>
+                  <label for="frequency2">Every Month</label>
+                </div>
+                
+                <div>
+                  <input type="radio" id="frequency3" name="newsletter-frequency" value="3" required>
+                  <label for="frequency3">Once every 2 months</label>
+                </div>
+
+                <div>
+                  <input type="radio" id="frequency4" name="newsletter-frequency" value="4" required>
+                  <label for="frequency4">Once every 3 months</label>
+                </div>
+
+                <div>
+                  <input type="radio" id="frequencyMonthly" name="newsletter-frequency" value="monthly" required>
+                  <label for="frequencyMonthly">Once every 4 months</label>
+                </div>
+
+                <button type="submit" id="subscribe-button">Subscribe</button>
+                <div id="message-popup">
+                    <p>Email regarding newsletter has been sent to you</p>
+                </div>
+            </section>
+        </section>
+
+        <script>
+            const submitButton = document.getElementById('subscribe-button');
+            const messagePopup = document.getElementById('message-popup');
+
+            submitButton.addEventListener('click', function() {
+                messagePopup.style.display = 'block';
+            });
+        </script>
+
+        </section>
+    </body>
+
+    <footer>
+        <p>TM & © 2023 Warner Bros. Entertainment Inc. All rights reserved.</p>
+        <div id="social-media-links">
+            <a href="https://www.facebook.com/WarnerBrosPictures/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://twitter.com/warnerbros" target="_blank"><i class="fab fab fa-twitter-square"></i></a>
+            <a href="https://www.instagram.com/wbpictures/?hl=en" target="_blank"><i class="fab fa-instagram-square"></i></a>
+            <a href="https://www.pinterest.com/warnerbrosent/" target="_blank"><i class="fab fa-pinterest-square"></i></a>
+            <a href="https://www.youtube.com/user/WarnerBrosPictures" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.linkedin.com/company/warner-bros--entertainment/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.warnerbros.com/newsletter" target="_blank"><i class="fas fa-envelope"></i></a>
+        </div>
+    </footer>
+
+</html>

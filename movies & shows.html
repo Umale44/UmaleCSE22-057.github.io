@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Warner Bros.</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <header>
+        <header id="header-0">
+            <div class="header-bar"></div>
+            <a href="index.html" id="logo-link">
+                <img src="C:\Users\cse22-057\OneDrive - Botswana Accountancy College\Documents\School\WMD\Assignment\pngwing.com.png" alt="logo" id="logo">
+            </a>
+            <nav>
+                <div id="menu-list">
+                    <a href="search">Search</a>
+                    <a href="movies & shows.html">Movies & Shows</a>
+                    <a href="Coming Soon.html">Coming Soon</a>
+                    <a href ="about movies shows & trailers.html"> About Movies/Shows & Trailers</a>
+                    <a href="purchase movie tickets.html">Purchase Movie Tickets</a>
+                    <a href="news letter.html">News Letter</a>
+                </div>
+            </nav>
+        </header>
+    </header>
+
+    <div id = "header-2">
+        <video src="C:\Users\cse22-057\OneDrive - Botswana Accountancy College\Documents\School\WMD\Assignment\Wonder Woman 1984 – Official Trailer.webm" autoplay loop muted></video>
+    </div>
+
+    <body id="body2">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <section id="section2">
+            <h2>Movies</h2>
+            <div id="movies">
+                <div class ="movie4">
+                    <img src="C:\Users\cse22-057\OneDrive - Botswana Accountancy College\Documents\School\WMD\Assignment\Dune.jpg" alt="Movie4" id="Movie4">
+                    <h3><a href="about movies shows & trailers.html">DUNE</h3></a>
+                </div>
+
+                <div class="movie5">
+                    <img src="C:\Users\cse22-057\OneDrive - Botswana Accountancy College\Documents\School\WMD\Assignment\MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_FMjpg_UX1000_.jpg" alt="movie5" id="movie5">
+                    <h3><a href="about movies shows & trailers.html">THE BATMAN</a></h3>
+                </div>
+
+                <div class="movie6">
+                    <img src="C:\Users\cse22-057\OneDrive - Botswana Accountancy College\Documents\School\WMD\Assignment\MV5BMGJkNDJlZWUtOGM1Ny00YjNkLThiM2QtY2ZjMzQxMTIxNWNmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg" alt="movie6" id="movie6">
+                    <h3><a href="about movies shows & trailers.html">THE MATRIX RESURRECTIONS</a></h3>
+                </div>
+
+                <div class="movie7">
+                    <img src="C:\Users\cse22-057\OneDrive - Botswana Accountancy College\Documents\School\WMD\Assignment\t9HBQAGbSc5oJcG0UznYgES2Blg.jpg" alt="movie7" id="movie7">
+                    <h3><a href="about movies shows & trailers.html">KING RICHARD</a></h3>
+                </div>
+            </div>
+
+            <h2>Shows</h2>
+            <div id="shows">
+                <div class="show4">
+                    <img src="C:\Users\cse22-057\OneDrive - Botswana Accountancy College\Documents\School\WMD\Assignment\Peacemaker.jpg" alt="show4" id="show4">
+                    <h3><a href="about movies shows & trailers.html">PEACEMAKER</a></h3>
+                </div>
+
+                <div class="show5">
+                    <img src="C:\Users\cse22-057\OneDrive - Botswana Accountancy College\Documents\School\WMD\Assignment\Night Court.jpg" alt="show5" id="show5">
+                    <h3><a href="about movies shows & trailers.html">NIGHT COURT</a></h3>
+                </div>
+
+                <div class="show6">
+                    <img src="C:\Users\cse22-057\OneDrive - Botswana Accountancy College\Documents\School\WMD\Assignment\Abbott Elementary.jpg" alt="show6" id="show6">
+                    <h3><a href="about movies shows & trailers.html">ABBOTT ELEMENTARY</a></h3>
+                </div>
+
+                <div class="show7">
+                    <img src="C:\Users\cse22-057\OneDrive - Botswana Accountancy College\Documents\School\WMD\Assignment\THE SEX LIVES OF COLLEGE GIRLS.jpg" alt="show7" id="show7">
+                    <h3><a href="about movies shows & trailers.html">THE SEX LIVES OF COLLEGE GIRLS</a></h3>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            // Get all links inside the div with id "movies" or "shows"
+            const links = document.querySelectorAll('#movies a, #shows a');
+
+            // Add a click event listener to each link
+            links.forEach(link => {
+                link.addEventListener('click', event => {
+                    event.preventDefault(); // Prevent the default link behavior
+                    const href = link.getAttribute('href'); // Get the href attribute
+                    const target = document.querySelector(href); // Get the target element
+                    const topOffset = target.offsetTop; // Calculate the top offset
+                    window.scrollTo({ top: topOffset, behavior: 'smooth' }); // Scroll smoothly to the target element
+                });
+            });
+        </script> 
+    </body>
+
+    <footer>
+        <p>TM & © 2023 Warner Bros. Entertainment Inc. All rights reserved.</p>
+        <div id="social-media-links">
+            <a href="https://www.facebook.com/WarnerBrosPictures/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://twitter.com/warnerbros" target="_blank"><i class="fab fab fa-twitter-square"></i></a>
+            <a href="https://www.instagram.com/wbpictures/?hl=en" target="_blank"><i class="fab fa-instagram-square"></i></a>
+            <a href="https://www.pinterest.com/warnerbrosent/" target="_blank"><i class="fab fa-pinterest-square"></i></a>
+            <a href="https://www.youtube.com/user/WarnerBrosPictures" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.linkedin.com/company/warner-bros--entertainment/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.warnerbros.com/newsletter" target="_blank"><i class="fas fa-envelope"></i></a>
+        </div>
+    </footer>
+
+</html

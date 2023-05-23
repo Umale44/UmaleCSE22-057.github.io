@@ -1,0 +1,94 @@
+/* Styles for form */
+#section4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+}
+
+#movieticket-section {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#movieticket-section label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#movieticket-section input,
+#movieticket-section select {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#movieticket-section img {
+  max-width: 50%;
+  height: auto;
+  margin-top: 10px;
+}
+
+#total-amount {
+  margin-top: 10px;
+}
+
+#amount-display {
+  font-weight: bold;
+}
+
+#message-popup {
+  display: none;
+  margin-top: 10px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+}
+
+#message-popup p {
+  margin: 0;
+}
+
+/* Styles for payment plans */
+#movieticket-section label[for="visa-online"],
+#movieticket-section label[for="pay-at-cinema"],
+#movieticket-section label[for="eft-payment"] {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 5px;
+}
+
+#movieticket-section input[type="radio"] {
+  margin-right: 5px;
+  vertical-align: middle;
+  position: relative;
+  top: 1px;
+}
+
+/* Styles for purchase button */
+#purchase-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#purchase-button:hover {
+  background-color: #45a049;
+}
+
+#purchase-button:focus {
+  outline: none;
+}
+
