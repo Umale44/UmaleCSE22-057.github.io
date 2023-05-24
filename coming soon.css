@@ -1,0 +1,88 @@
+/* Styles for the movie list section */
+#movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.movie8,
+.movie9,
+.movie10,
+.movie11,
+.movie12 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 250px;
+    align-items: relative;
+}
+
+.movie8 img,
+.movie9 img,
+.movie10 img,
+.movie11 img,
+.movie12 img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.movie8 h3,
+.movie9 h3,
+.movie10 h3,
+.movie11 h3,
+.movie12 h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+
+.movie8 a,
+.movie9 a,
+.movie11 a,
+.movie12 a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1e88e5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.movie10 a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1e88e5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: normal; /* Remove the bold font weight */
+}
+
+
+.movie8 a:hover,
+.movie9 a:hover,
+.movie10 a:hover,
+.movie11 a:hover,
+.movie12 a:hover {
+    background-color: #1565c0;
+}
+
+
+/* Styles for the movie titles */
+.movie-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Styles for the movie release dates */
+.movie-release-date {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+

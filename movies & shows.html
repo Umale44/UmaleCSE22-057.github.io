@@ -7,6 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="Styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     </head>
 
     <header>
@@ -41,7 +42,7 @@
             <div id="movies">
                 <div class ="movie4">
                     <img src="Dune.jpg" alt="Movie4" id="Movie4">
-                    <h3><a href="about movies shows & trailers.html">DUNE</h3></a>
+                    <h3><a href="about movies shows & trailers.html">DUNE</a></h3>
                 </div>
 
                 <div class="movie5">
@@ -83,22 +84,6 @@
                 </div>
             </div>
         </section>
-
-        <script>
-            // Get all links inside the div with id "movies" or "shows"
-            const links = document.querySelectorAll('#movies a, #shows a');
-
-            // Add a click event listener to each link
-            links.forEach(link => {
-                link.addEventListener('click', event => {
-                    event.preventDefault(); // Prevent the default link behavior
-                    const href = link.getAttribute('href'); // Get the href attribute
-                    const target = document.querySelector(href); // Get the target element
-                    const topOffset = target.offsetTop; // Calculate the top offset
-                    window.scrollTo({ top: topOffset, behavior: 'smooth' }); // Scroll smoothly to the target element
-                });
-            });
-        </script> 
     </body>
 
     <footer>
