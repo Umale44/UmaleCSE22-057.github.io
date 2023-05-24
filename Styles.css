@@ -214,7 +214,100 @@ nav ul li a {
     margin-bottom: 2rem;
   }
  
+  /* Styling for Popular Movies section */
+  #movie-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .movie1, .movie2, .movie3 {
+    width: 20%;
+    margin-bottom: 2rem;
+  }
+  
+  .movie1 img, .movie2 img, .movie3 img {
+    width: 50%;
+    height: auto;
+  }
 
+  .movie1 h3, .movie2 h3, .movie3 h3 {
+    color: #0c0c0d;
+    margin-top: 1rem;
+  }
+  
+  .movie1 p, .movie2 p, .movie3 p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  .movie1 a, .movie2 a, .movie3 a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    background-color: #0072ff;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  .movie1 a:hover, .movie2 a:hover, .movie3 a:hover{
+    background-color: #0050d1;
+  }
+  
+  .movie1 span, .movie2 span, .movie3 span {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    color: #0072ff;
+  }
+  
+  
+  /* Styling for Popular TV Shows section */
+  #show-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .show1, .show2, .show3 {
+    width: 20%;
+    margin-bottom: 2rem;
+  }
+  
+  .show1 img, .show2 img, .show3 img {
+    width: 50%;
+    height: auto;
+  }
+  
+  .show1 h3, .show2 h3, .show3 h3 {
+    color: #0c0c0d;
+    margin-top: 1rem;
+  }
+  
+  .show1 p, .show2 p, .show3 p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  .show1 a, .show2 a, .show3 a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    background-color: #0072ff;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  .show1 a:hover, .show2 a:hover, .show3 a:hover {
+    background-color: #0050d1;
+  }
+  
+  .show1 span, .show2 span, .show3 span {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    color: #0072ff;
+  }
   
   a[href='#'] {
     background-color: #f9ac00;
