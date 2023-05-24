@@ -1,0 +1,90 @@
+#section3 .dune, .thematrixresurrections, .peacemaker, .abbottelementary {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex: 1;
+    background-color: rgb(38, 41, 68);
+    color: white;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+  }
+  
+  #section3 .thebatman, .kingrichard, .nightcourt, .thesexlivesofcollegegirls {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    flex: 1;
+    background-color:whitesmoke;
+    color: black;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+  }
+  
+  
+  #section3 .dune h2, .thematrixresurrections h2, .peacemaker h2, .abbottelementary h2 {
+    float: left;
+    margin-right: 20px;
+    margin-top: 0px;
+  }
+  
+  #section3 .thebatman h2, .kingrichard h2, .nightcourt h2, .thesexlivesofcollegegirls h2 {
+    float: right;
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+  
+  #section3 .dune h3, .thematrixresurrections h3, .peacemaker h3, .abbottelementary h3 {
+    float: left;
+    margin-right: 20px;
+    margin-top: 0px;
+  }
+  
+  #section3 .thebatman h3, .kingrichard h3, .nightcourt h3, .thesexlivesofcollegegirls h3 {
+    float: right;
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+  
+  #section3 .dune p, .thematrixresurrections p, .peacemaker p, .abbottelementary p {
+    text-align: start;
+    flex: 1;
+  }
+  
+  #section3 .thebatman p, .kingrichard p, .nightcourt p, .thesexlivesofcollegegirls p {
+    text-align: right;
+    float: right;
+    flex: 1;
+  }
+  
+  #section3 .dune video, .thematrixresurrections video, .peacemaker video, .abbottelementary video {
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    width: 450px;
+    height: auto;
+    filter: brightness(150%);
+  } 
+  
+  #section3 .thebatman video, .kingrichard video, .thesexlivesofcollegegirls video {
+    position: absolute;
+    top: 50px;
+    right: 600px;
+    width: 450px;
+    height: auto;
+    filter: brightness(150%);
+  }
+  
+  #section3  .nightcourt video{
+    position: absolute;
+    top: 40px;
+    right: 630px;
+    width: 400px;
+    height: auto;
+    filter: brightness(150%);
+  }
