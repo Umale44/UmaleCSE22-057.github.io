@@ -28,38 +28,31 @@
   
   
   #section3 .dune h2, .thematrixresurrections h2, .peacemaker h2, .abbottelementary h2 {
-    float: left;
     margin-right: 20px;
     margin-top: 0px;
   }
   
   #section3 .thebatman h2, .kingrichard h2, .nightcourt h2, .thesexlivesofcollegegirls h2 {
-    float: right;
     margin-left: 20px;
     margin-top: 0px;
   }
   
   #section3 .dune h3, .thematrixresurrections h3, .peacemaker h3, .abbottelementary h3 {
-    float: left;
     margin-right: 20px;
     margin-top: 0px;
   }
   
   #section3 .thebatman h3, .kingrichard h3, .nightcourt h3, .thesexlivesofcollegegirls h3 {
-    float: right;
     margin-left: 20px;
     margin-top: 0px;
   }
   
   #section3 .dune p, .thematrixresurrections p, .peacemaker p, .abbottelementary p {
     text-align: start;
-    flex: 1;
   }
   
   #section3 .thebatman p, .kingrichard p, .nightcourt p, .thesexlivesofcollegegirls p {
     text-align: right;
-    float: right;
-    flex: 1;
   }
   
   #section3 .dune video, .thematrixresurrections video, .peacemaker video, .abbottelementary video {
@@ -88,3 +81,54 @@
     height: auto;
     filter: brightness(150%);
   }
+
+  /* Responsive Styles */
+
+@media (max-width: 768px) {
+  #section3 .dune video,
+  #section3 .thematrixresurrections video,
+  #section3 .peacemaker video,
+  #section3 .abbottelementary video,
+  #section3 .thebatman video,
+  #section3 .kingrichard video,
+  #section3 .nightcourt video,
+  #section3 .thesexlivesofcollegegirls video {
+    position: static;
+    width: 100%;
+    height: auto;
+    filter: none;
+  }
+
+  #section3 .thebatman,
+  #section3 .kingrichard,
+  #section3 .nightcourt,
+  #section3 .thesexlivesofcollegegirls {
+    align-items: flex-start;
+  }
+
+  #section3 .thebatman h2,
+  #section3 .kingrichard h2,
+  #section3 .nightcourt h2,
+  #section3 .thesexlivesofcollegegirls h2 {
+    float: none;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  #section3 .thebatman h3,
+  #section3 .kingrichard h3,
+  #section3 .nightcourt h3,
+  #section3 .thesexlivesofcollegegirls h3 {
+    float: none;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  #section3 .thebatman p,
+  #section3 .kingrichard p,
+  #section3 .nightcourt p,
+  #section3 .thesexlivesofcollegegirls p {
+    text-align: start;
+    float: none;
+  }
+}

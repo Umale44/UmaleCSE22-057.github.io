@@ -13,28 +13,32 @@
 
     <header>
         <header id="header-0">
-            <div class="header-bar"></div>
-            <a href="index.html" id="logo-link">
-                <img src="WB Logo.png" alt="logo" id="logo">
-            </a>
-            <nav>
-                <div id="menu-list">
-                    <div id="search-bar">
-                        <input type="text" id="search-input" placeholder="Search">
+            <div class="header-bar">
+                <a href="index.html" id="logo-link">
+                    <img src="WB Logo.png" alt="logo" id="logo">
+                </a>
+                <nav>
+                    <div id="menu-dropdown">
+                        <div id="menu-list">
+                            <div id="search-bar">
+                                <input type="text" id="search-input" placeholder="Search">
+                            </div>
+                            <a href="movies & shows.html">Movies & Shows</a>
+                            <a href="coming soon.html">Coming Soon</a>
+                            <a href ="about movies shows & trailers.html"> About Movies/Shows & Trailers</a>
+                            <a href ="more.html"> More</a>
+                            <a href="purchase movie tickets.html">Purchase Movie Tickets</a>
+                            <a href="news letter.html">News Letter</a>
+                        </div>
                     </div>
-                    <a href="movies & shows.html">Movies & Shows</a>
-                    <a href="coming soon.html">Coming Soon</a>
-                    <a href ="about movies shows & trailers.html"> About Movies/Shows & Trailers</a>
-                    <a href="purchase movie tickets.html">Purchase Movie Tickets</a>
-                    <a href="news letter.html">News Letter</a>
-                </div>
-            </nav>
+                </nav>
+            </div>
         </header>
     </header>
 
     <body id = body6>
         <section>
-            <h2>Movies On Their Merry Way</h2>
+            <h2>Movies On The Way</h2>
             <div id="movie-list">
                 <div class="movie8">
                     <img src="BlueBeetle.jpg" alt="Movie 8">
@@ -79,7 +83,18 @@
         </section>
     </body>
 
-    <script src="" async defer></script>
+    <script>
+        // Get the menu dropdown element
+        const menuDropdown = document.getElementById('menu-dropdown');
+            
+            // Get the menu list element
+            const menuList = document.getElementById('menu-list');
+            
+            // Toggle the 'open' class on menu list when the dropdown button is clicked
+            menuDropdown.addEventListener('click', function () {
+              menuList.classList.toggle('open');
+        });
+    </script>
 
     <footer>
         <p>TM & © 2023 Warner Bros. Entertainment Inc. All rights reserved.</p>

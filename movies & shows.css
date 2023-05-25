@@ -34,3 +34,20 @@
     width: 50%;
     height: auto;
   }
+
+@media (max-width: 768px) {
+  .movie4, .movie5, .movie6, .movie7, .show4, .show5, .show6, .show7 {
+    width: 40%;
+  }
+  
+  .movie4 img, .movie5 img, .movie6 img, .movie7 img, .show4 img, .show5 img, .show6 img, .show7 img {
+    width: 100%;
+    height: auto;
+  }
+}
+  
+@media (max-width: 480px) {
+  .movie4, .movie5, .movie6, .movie7, .show4, .show5, .show6, .show7 {
+  width: 100%;
+  }
+}

@@ -1,0 +1,155 @@
+#links {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8%;
+    justify-content: space-between;
+  }
+  
+  #links h1 {
+    color: white;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  
+  #links #apple {
+    width: 80%;
+    height: auto;
+    margin-right: 5%;
+  }
+  
+  #links #prime {
+    width: 80%;
+    height: auto;
+    margin-right: 5%;
+  }
+  
+  #links #hbo {
+    width: 80%;
+    height: auto;
+    margin-right: 5%;
+  }
+  
+  #links #bestbuy {
+    width: 80%;
+    height: auto;
+    margin-right: 5%;
+  }
+  
+  #links #walmart {
+    width: 80%;
+    height: auto;
+    margin-right: 5%;
+  }
+  
+  
+.fantasy-scroll-container {
+    position: relative;
+    overflow-x: auto;
+    white-space: nowrap;
+    align-items: center;
+    padding-bottom: 5%; /* Add a gap between the container and the scrollbar */
+    margin-bottom: 10%;
+  }
+  
+  .fantasy-scroll-container::-webkit-scrollbar {
+    height: 8px; /* Set the height of the scrollbar */
+  }
+  
+  .fantasy-scroll-container::-webkit-scrollbar-thumb {
+    background-color: none; /* Set the color of the scrollbar thumb */
+    border-radius: 4px; /* Set the border radius of the scrollbar thumb */
+  }
+  
+  .fantasy-scroll-container .movie-item {
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px; /* Add a gap between the movie items */
+  }
+  
+  .animation-scroll-container {
+    position: relative;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 20px; /* Add a gap between the container and the scrollbar */
+    margin-bottom: 10%;
+  }
+  
+  .animation-scroll-container::-webkit-scrollbar {
+    height: 8px; /* Set the height of the scrollbar */
+  }
+  
+  .animation-scroll-container::-webkit-scrollbar-thumb {
+    background-color: none; /* Set the color of the scrollbar thumb */
+    border-radius: 4px; /* Set the border radius of the scrollbar thumb */
+  }
+  
+  .animation-scroll-container .movie-item {
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px; /* Add a gap between the movie items */
+  }
+
+  .serieses-scroll-container {
+    position: relative;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 20px; /* Add a gap between the container and the scrollbar */
+  }
+  
+  .serieses-scroll-container::-webkit-scrollbar {
+    height: 8px; /* Set the height of the scrollbar */
+  }
+  
+  .serieses-scroll-container::-webkit-scrollbar-thumb {
+    background-color: none; /* Set the color of the scrollbar thumb */
+    border-radius: 4px; /* Set the border radius of the scrollbar thumb */
+  }
+  
+  .serieses-scroll-container .serieses-item {
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px; /* Add a gap between the movie items */
+  }
+
+.fantasy-scroll-container .movie-item img,
+.animation-scroll-container .movie-item img,
+.serieses-scroll-container .serieses-item img {
+  width: 200px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.fantasy-scroll-container .movie-item p,
+.animation-scroll-container .movie-item p,
+.serieses-scroll-container .serieses-item p {
+    color: black;
+    font-weight: bold;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+    #links {
+      flex-wrap: wrap;
+    }
+  
+    #links h1 {
+      width: 100%;
+      margin-bottom: 2%;
+    }
+  
+    #links img {
+      width: 30%;
+      margin-right: 2%;
+      margin-bottom: 2%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    #links img {
+      width: 45%;
+    }
+  }

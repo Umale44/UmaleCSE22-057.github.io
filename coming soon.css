@@ -86,3 +86,20 @@
     margin-bottom: 10px;
 }
 
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+    .movie8,
+    .movie9,
+    .movie10,
+    .movie11,
+    .movie12 {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #movie-list {
+      justify-content: flex-start;
+    }
+  }
