@@ -126,7 +126,7 @@ html {
     background-color: black;
   }
 
-  @media only screen and (max-width: 768px), (max-width: 820px), (max-width: 1100px) {
+  @media only screen and (max-width: 480px), (max-width: 768px), (max-width: 820px), (max-width: 1100px) {
     /* For mobile phones: */
     [id*="header-0"] {
       width: 100%;
@@ -211,7 +211,6 @@ html {
     filter: blur(5px); /* Adjust the blur amount as needed */
   }  
 
-  /* Responsive media query for smaller devices */
 @media only screen and (max-width: 768px), (max-width: 820px), (max-width: 1100px){
   header {
     flex-direction: column;
@@ -274,6 +273,10 @@ html {
 
   #search-input {
     width: 100%;
+  }
+
+  #header-1 {
+    height: 46vh; /* Adjust the height of the header for smaller screens */
   }
 }
   
