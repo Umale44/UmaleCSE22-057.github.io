@@ -22,19 +22,23 @@
     color: black;
     height: auto;
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     position: relative;
   }
   
   
   #section3 .dune h2, .thematrixresurrections h2, .peacemaker h2, .abbottelementary h2 {
+    color: white;
     margin-right: 20px;
     margin-top: 0px;
+    font-size:xx-large;
   }
   
   #section3 .thebatman h2, .kingrichard h2, .nightcourt h2, .thesexlivesofcollegegirls h2 {
+    color: black;
     margin-left: 20px;
     margin-top: 0px;
+    font-size: xx-large;
   }
   
   #section3 .dune h3, .thematrixresurrections h3, .peacemaker h3, .abbottelementary h3 {
@@ -57,9 +61,9 @@
   
   #section3 .dune video, .thematrixresurrections video, .peacemaker video, .abbottelementary video {
     position: absolute;
-    top: 50px;
+    top: 60px;
     left: 400px;
-    width: 450px;
+    width: 400px;
     height: auto;
     filter: brightness(150%);
   } 
@@ -83,8 +87,26 @@
   }
 
   /* Responsive Styles */
+  @media (max-width: 1100px) {
+    #header-3 {
+      height: 45vh;
+    }
+}
+  @media (max-width: 768px), (max-width: 820px), (max-width: 1100px) {
+    
+  #header-3 {
+    height: 35vh;
+  }
+}
 
-@media (max-width: 768px), (max-width: 820px), (max-width: 1100px) {
+@media (max-width: 480px) {
+  #header-3 {
+    height: 20vh;
+  }
+}
+
+@media (max-width: 480px), (max-width: 768px), (max-width: 820px), (max-width: 1100px) {
+
   #section3 .dune video,
   #section3 .thematrixresurrections video,
   #section3 .peacemaker video,
@@ -97,6 +119,7 @@
     width: 100%;
     height: auto;
     filter: none;
+    margin-bottom: 2%
   }
 
   #section3 .thebatman,

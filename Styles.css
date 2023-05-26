@@ -25,6 +25,9 @@ html {
     padding: 0;
   }
   
+  #header {
+    height: 10vh; /* Adjust the height of the header as needed */
+  }
   a {
     text-decoration: none;
   }
@@ -82,19 +85,6 @@ html {
     object-fit: cover;
   }
 
-  @media (max-width: 768px), (max-width: 820px), (max-width: 1100px) {
-    #header-2 video {
-      width: 100%;
-      height: auto;
-      max-height: 80vh;
-    }
-  }
-
-  @media (max-width: 480px), (max-width: 820px), (max-width: 1100px) {
-    #header-2 video {
-      max-height: 60vh;
-    }
-  }
 
   #header-3 img, #header-4 img {
     width: 100%;
@@ -138,7 +128,7 @@ html {
 
   @media only screen and (max-width: 768px), (max-width: 820px), (max-width: 1100px) {
     /* For mobile phones: */
-    [id*="header"] {
+    [id*="header-0"] {
       width: 100%;
     }
   }
@@ -293,7 +283,7 @@ html {
   }
   
   h2 {
-    color: #555;
+    color: black;
     font-size: 2.5rem;
     margin-bottom: 2rem;
   }
@@ -400,7 +390,7 @@ html {
   }
 }
 
-@media (max-width: 480px), (max-width: 1100px), (max-width: 820px) {
+@media (max-width: 480px), (max-width: 820px) {
   .movie1, .movie2, .movie3, .show1, .show2, .show3 {
     width: 80%;
   }
