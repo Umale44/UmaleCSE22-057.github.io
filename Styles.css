@@ -82,7 +82,7 @@ html {
     object-fit: cover;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 768px), (max-width: 820px) {
     #header-2 video {
       width: 100%;
       height: auto;
@@ -90,7 +90,7 @@ html {
     }
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 480px), (max-width: 820px) {
     #header-2 video {
       max-height: 60vh;
     }
@@ -136,7 +136,7 @@ html {
     background-color: black;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px), (max-width: 820px) {
     /* For mobile phones: */
     [id*="header"] {
       width: 100%;
