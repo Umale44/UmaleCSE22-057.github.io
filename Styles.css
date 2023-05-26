@@ -82,7 +82,7 @@ html {
     object-fit: cover;
   }
 
-  @media (max-width: 768px), (max-width: 820px) {
+  @media (max-width: 768px), (max-width: 820px), (max-width: 1100px) {
     #header-2 video {
       width: 100%;
       height: auto;
@@ -90,7 +90,7 @@ html {
     }
   }
 
-  @media (max-width: 480px), (max-width: 820px) {
+  @media (max-width: 480px), (max-width: 820px), (max-width: 1100px) {
     #header-2 video {
       max-height: 60vh;
     }
@@ -136,7 +136,7 @@ html {
     background-color: black;
   }
 
-  @media only screen and (max-width: 768px), (max-width: 820px) {
+  @media only screen and (max-width: 768px), (max-width: 820px), (max-width: 1100px) {
     /* For mobile phones: */
     [id*="header"] {
       width: 100%;
@@ -222,7 +222,7 @@ html {
   }  
 
   /* Responsive media query for smaller devices */
-@media only screen and (max-width: 768px), (max-width: 820px){
+@media only screen and (max-width: 768px), (max-width: 820px), (max-width: 1100px){
   header {
     flex-direction: column;
     align-items: center;
@@ -394,13 +394,13 @@ html {
 
     /* Media queries for different breakpoints */
 
-@media (max-width: 768px) {
+@media (max-width: 768px), (max-width: 820px), (max-width: 1100px) {
   .movie1, .movie2, .movie3, .show1, .show2, .show3 {
     width: 40%;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px), (max-width: 1100px), (max-width: 820px) {
   .movie1, .movie2, .movie3, .show1, .show2, .show3 {
     width: 80%;
   }
