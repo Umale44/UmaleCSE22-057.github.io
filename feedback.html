@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="Styles.css">
-        <link rel="stylesheet" href="News Letter.css">
+        <link rel="stylesheet" href="feedback.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     </head>
 
@@ -36,9 +36,9 @@
         </header>
     </header>
 
-    <body id="body5">
-        <section id="section5">
-            <section id="newsletter-section">
+    <body id="body7">
+        <section id="section7">
+            <section id="feedback-section">
                 <label for="full-name">Full Name:</label>
                 <input type="text" id="full-name" name="full-name" required>
                 
@@ -47,34 +47,13 @@
                 
                 <label for="country">Country:</label>
                 <input type="text" id="country" name="country">
-                
-                <label for="zip-code">Zip Code:</label>
-                <input type="text" id="zip-code" name="zip-code" required>
-                
-                <label>Newsletter Frequency:</label>
-                <div>
-                  <input type="radio" id="frequency2" name="newsletter-frequency" value="2" required>
-                  <label for="frequency2">Every Month</label>
-                </div>
-                
-                <div>
-                  <input type="radio" id="frequency3" name="newsletter-frequency" value="3" required>
-                  <label for="frequency3">Once every 2 months</label>
-                </div>
 
-                <div>
-                  <input type="radio" id="frequency4" name="newsletter-frequency" value="4" required>
-                  <label for="frequency4">Once every 3 months</label>
-                </div>
-
-                <div>
-                  <input type="radio" id="frequencyMonthly" name="newsletter-frequency" value="monthly" required>
-                  <label for="frequencyMonthly">Once every 4 months</label>
-                </div>
+                <label for="feedback">Feedback:</label>
+                <input type="text" id="feedback" name="feedback" required>
 
                 <button type="submit" id="subscribe-button">Subscribe</button>
                 <div id="message-popup">
-                    <p>Email regarding newsletter has been sent to you</p>
+                    <p>Thank you for your feedback<br>We will make sure to review it</p>
                 </div>
             </section>
         </section>
@@ -103,7 +82,7 @@
     </body>
 
     <footer>
-        <p>TM & © 2023 Warner Bros. Entertainment Inc. All rights reserved.</p>
+        <p>TM & © 2023 Warner Bros. Entertainment Inc. All rights reserved.</p> 
         <div id="social-media-links">
             <a href="https://www.facebook.com/WarnerBrosPictures/" target="_blank"><i class="fab fa-facebook-square"></i></a>
             <a href="https://twitter.com/warnerbros" target="_blank"><i class="fab fab fa-twitter-square"></i></a>
@@ -113,6 +92,5 @@
             <a href="https://www.linkedin.com/company/warner-bros--entertainment/" target="_blank"><i class="fab fa-linkedin"></i></a>
             <a href="news letter.html" target="_blank"><i class="fas fa-envelope"></i></a>
             <a href="feedback.html">Feedback</a>
-        </div>
     </footer>
 </html>
