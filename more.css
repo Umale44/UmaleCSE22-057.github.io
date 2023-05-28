@@ -44,10 +44,11 @@
   
   
 .fantasy-scroll-container {
+    display: grid;
+    grid-auto-flow: column;
     position: relative;
     overflow-x: auto;
     white-space: nowrap;
-    align-items: center;
     padding-bottom: 5%; /* Add a gap between the container and the scrollbar */
     margin-bottom: 10%;
   }
@@ -68,6 +69,8 @@
   }
   
   .animation-scroll-container {
+    display: grid;
+    grid-auto-flow: column;
     position: relative;
     overflow-x: auto;
     white-space: nowrap;
@@ -91,6 +94,8 @@
   }
 
   .serieses-scroll-container {
+    display: grid;
+    grid-auto-flow: column;
     position: relative;
     overflow-x: auto;
     white-space: nowrap;
@@ -117,6 +122,7 @@
 .serieses-scroll-container .serieses-item img {
   width: 200px;
   height: auto;
+  aspect-ratio: 2 / 3;
   border-radius: 5px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
