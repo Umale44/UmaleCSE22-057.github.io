@@ -387,6 +387,21 @@ html {
 
     /* Media queries for different breakpoints */
 
+    @media screen and (max-width: 480px) {
+      .movie1 h3,
+      .movie1 p {
+        color: #555;
+      }
+
+      #header-1 {
+        height: 25vh; /* Adjust the height of the header for smaller screens */
+      }
+
+      #header-1 h2 {
+        font-size: small;
+      }
+    }
+
 @media (max-width: 768px), (max-width: 820px), (max-width: 1100px) {
   .movie1, .movie2, .movie3, .show1, .show2, .show3 {
     width: 40%;
